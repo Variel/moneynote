@@ -1,0 +1,16 @@
+{
+  "name": "moneynote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "common": "pnpm -F @moneynote/common",
+    "backend": "pnpm -F @moneynote/backend",
+    "web": "pnpm -F @moneynote/web",
+    "backend-base": "pnpm -F @moneynote/backend-base",
+    "dev": "pnpm -r dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED"
+}
